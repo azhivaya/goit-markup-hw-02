@@ -25,7 +25,6 @@ body {
   color: var(--accent-color);
 
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -41,10 +40,9 @@ body {
 .site-nav .link {
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -61,7 +59,6 @@ body {
 .contacts {
   color: var(--secondary-text-color);
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +88,6 @@ body {
   background-color: var(--footer-background-color);
   color: var(--text-color-white);
 
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -105,7 +101,6 @@ body {
 .features .block-title {
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,15 +116,13 @@ body {
 
 .button {
   font-family: inherit;
-  font-style: normal;
   cursor: pointer;
 }
 
 .button.primary {
   background-color: var(--accent-color);
   color: var(--text-color-white);
-  
-  font-style: normal;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -149,7 +142,6 @@ body {
   background-color: var(--button-secondary-bgc);
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -173,7 +165,6 @@ body {
 .team .title {
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -192,7 +183,6 @@ body {
 }
 
 .team .name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -217,7 +207,6 @@ body {
 
 .footer .list {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -257,7 +246,6 @@ body {
 .project-title {
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -274,4 +262,3 @@ body {
 .project-link {
   text-decoration: none;
 }
-
