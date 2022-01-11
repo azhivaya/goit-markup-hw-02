@@ -31,13 +31,13 @@ body {
   text-decoration: none;
 }
 
-.header-part {
+.header-logo-part {
   color: var(--header-logo);
 }
 
 /* Site nav */
 
-.site-nav .link {
+.site-nav-link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -47,16 +47,16 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav-link.current {
   color: var(--accent-color);
 }
 
-.contacts {
+.header-contacts {
   color: var(--secondary-text-color);
 
   font-weight: 500;
@@ -66,12 +66,12 @@ body {
   text-decoration: none;
 }
 
-.contacts:hover,
-.contacts:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--accent-color);
 }
 
-.contacts:active {
+.header-contacts:active {
   color: var(--accent-color);
 }
 
@@ -84,7 +84,7 @@ body {
 
 /* Hero */
 
-.hero .title {
+.hero-title {
   background-color: var(--footer-background-color);
   color: var(--text-color-white);
 
@@ -98,7 +98,7 @@ body {
 
 /* Features */
 
-.features .block-title {
+.features-block-title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -107,7 +107,7 @@ body {
   text-transform: uppercase;
 }
 
-.features .text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -161,8 +161,8 @@ body {
 
 /* Work */
 
-.work .title,
-.team .title {
+.work-title,
+.team-title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -177,19 +177,19 @@ body {
   background-color: var(--button-secondary-bgc);
 }
 
-.team .title,
-.team .name {
+.team-title,
+.team-name {
   color: var(--primary-text-color);
 }
 
-.team .name {
+.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
 
-.list .profession {
+.team-profession {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
@@ -201,11 +201,11 @@ body {
   background-color: var(--footer-background-color);
 }
 
-.footer-logo {
+.footer-logo-part {
   color: var(--text-color-white);
 }
 
-.footer .list {
+.footer-list {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -235,7 +235,7 @@ body {
 /* Portfolio */
 
 .portfolio-title,
-.features .title {
+.features-title {
   visibility: hidden;
 }
 
